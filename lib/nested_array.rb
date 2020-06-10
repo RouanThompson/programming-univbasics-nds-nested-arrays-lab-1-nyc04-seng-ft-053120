@@ -35,7 +35,7 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
-  matrix.each{ |array|
+  matrix.each { |array|
     array.sort!
   }
   matrix
