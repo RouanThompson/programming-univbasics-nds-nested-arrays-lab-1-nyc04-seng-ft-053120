@@ -35,8 +35,9 @@ def sorted_matrix
     ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
-  matrix[0].sort!
-  matrix[1].sort!
+  matrix.each{|array|
+    array.sort!
+  }
   matrix
 end
 
